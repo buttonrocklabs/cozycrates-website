@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  /* Cozy Crates Brand Colors */
+  --color-cc-black: #161616;
+  --color-cc-dark: #1a1a1a;
+  --color-cc-gray-dark: #2a2a2a;
+  --color-cc-gray: #4a4a4a;
+  --color-cc-gray-light: #8a8a8a;
+  --color-cc-gray-lighter: #d0d0d0;
+  --color-cc-white: #ffffff;
+  --color-cc-off-white: #f5f5f5;
+  --color-cc-green: #87FE45;
+  --color-cc-green-dark: #6bd835;
+  --color-cc-green-light: #d0ffc2;
+
+  /* Font families */
+  --font-heading: "Oswald", sans-serif;
+  --font-body: "Open Sans", sans-serif;
+}
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-cc-black);
+  background-color: var(--color-cc-white);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
