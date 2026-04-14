@@ -40,28 +40,7 @@ export default function HowToHelp() {
             other items to reach more children in affected communities.
           </p>
 
-          <div className="grid gap-8 md:grid-cols-3">
-            {/* PayPal */}
-            <div className="rounded-lg border border-gray-200 p-8 text-center transition-shadow hover:shadow-md">
-              <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-cc-green-light">
-                <svg className="h-8 w-8 text-cc-green-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <h3 className="font-heading text-xl font-bold">Donate via PayPal</h3>
-              <p className="mt-3 text-sm text-gray-600">
-                Make a direct monetary contribution through PayPal
-              </p>
-              <a
-                href="https://www.paypal.com/donate/?hosted_button_id=YOUR_PAYPAL_ID"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-6 inline-block rounded bg-cc-green px-6 py-2.5 font-heading font-bold text-cc-black transition-colors hover:bg-cc-green-dark"
-              >
-                Donate Now
-              </a>
-            </div>
-
+          <div className="mx-auto max-w-lg">
             {/* GoFundMe */}
             <div className="rounded-lg border border-gray-200 p-8 text-center transition-shadow hover:shadow-md">
               <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-cc-green-light">
@@ -83,26 +62,6 @@ export default function HowToHelp() {
               </a>
             </div>
 
-            {/* Amazon Wish List */}
-            <div className="rounded-lg border border-gray-200 p-8 text-center transition-shadow hover:shadow-md">
-              <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-cc-green-light">
-                <svg className="h-8 w-8 text-cc-green-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
-                </svg>
-              </div>
-              <h3 className="font-heading text-xl font-bold">Amazon Wish List</h3>
-              <p className="mt-3 text-sm text-gray-600">
-                Purchase supplies directly from our curated wish list
-              </p>
-              <a
-                href="https://www.amazon.com/hz/wishlist/ls/cozy-crates"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-6 inline-block rounded bg-cc-green px-6 py-2.5 font-heading font-bold text-cc-black transition-colors hover:bg-cc-green-dark"
-              >
-                View Wish List
-              </a>
-            </div>
           </div>
         </div>
       </section>
