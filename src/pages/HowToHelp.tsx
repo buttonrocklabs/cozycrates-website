@@ -74,7 +74,7 @@ export default function HowToHelp() {
                 Support our campaign on GoFundMe
               </p>
               <a
-                href="https://www.gofundme.com/f/cozy-crates"
+                href="https://gofund.me/bee1cc79e"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-6 inline-block rounded bg-cc-green px-6 py-2.5 font-heading font-bold text-cc-black transition-colors hover:bg-cc-green-dark"
