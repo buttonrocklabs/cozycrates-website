@@ -68,19 +68,55 @@ export default function Media() {
           <h2 className="mb-8 text-center font-heading text-3xl font-bold">
             Video <span className="text-cc-green">Coverage</span>
           </h2>
-          <div className="aspect-video overflow-hidden rounded-lg shadow-lg">
-            <iframe
-              src="https://player.vimeo.com/video/cozy-crates"
-              className="h-full w-full"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowFullScreen
-              title="Cozy Crates local television segment"
-            />
+          <div className="space-y-10">
+            <div>
+              <div className="aspect-video overflow-hidden rounded-lg shadow-lg">
+                <iframe
+                  src="https://player.vimeo.com/video/854501919?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479"
+                  className="h-full w-full"
+                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                  title="Cozy Crates Home Page Video"
+                />
+              </div>
+              <p className="mt-4 text-center text-sm text-gray-600">
+                Cozy Crates Home Page Video
+              </p>
+            </div>
+
+            <div>
+              <div className="aspect-video overflow-hidden rounded-lg shadow-lg">
+                <iframe
+                  src="https://player.vimeo.com/video/768192014?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479"
+                  className="h-full w-full"
+                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                  title="HawkTV Segment 11/4/22"
+                />
+              </div>
+              <p className="mt-4 text-center text-sm text-gray-600">
+                HawkTV Segment — November 4, 2022
+              </p>
+            </div>
+
+            <div>
+              <div className="aspect-video overflow-hidden rounded-lg shadow-lg">
+                <iframe
+                  src="https://player.vimeo.com/video/729449078?h=78898436c7&title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479"
+                  className="h-full w-full"
+                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                  title="CozyCrates.mp4"
+                />
+              </div>
+              <p className="mt-4 text-center text-sm text-gray-600">
+                Cozy Crates
+              </p>
+            </div>
           </div>
-          <p className="mt-4 text-center text-sm text-gray-600">
-            A local television segment highlighted Cozy Crates and the organization's future
-            plans.
-          </p>
         </div>
       </section>
 
