@@ -70,48 +70,54 @@ export default function Media() {
           </h2>
           <div className="space-y-10">
             <div>
-              <div className="aspect-video overflow-hidden rounded-lg shadow-lg">
-                <iframe
-                  src="https://player.vimeo.com/video/854501919?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479"
-                  className="h-full w-full"
-                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
-                  title="Cozy Crates Home Page Video"
+              <video
+                className="w-full rounded-lg shadow-lg"
+                controls
+                preload="metadata"
+                playsInline
+              >
+                <source
+                  src="https://pub-2bc2bf823845443c99633e3c6a3d342f.r2.dev/videos/cozy-crates-home-video.mp4"
+                  type="video/mp4"
                 />
-              </div>
+                Your browser does not support the video tag.
+              </video>
               <p className="mt-4 text-center text-sm text-gray-600">
                 Cozy Crates Home Page Video
               </p>
             </div>
 
             <div>
-              <div className="aspect-video overflow-hidden rounded-lg shadow-lg">
-                <iframe
-                  src="https://player.vimeo.com/video/768192014?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479"
-                  className="h-full w-full"
-                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
-                  title="HawkTV Segment 11/4/22"
+              <video
+                className="w-full rounded-lg shadow-lg"
+                controls
+                preload="metadata"
+                playsInline
+              >
+                <source
+                  src="https://pub-2bc2bf823845443c99633e3c6a3d342f.r2.dev/videos/hawktv-segment.mp4"
+                  type="video/mp4"
                 />
-              </div>
+                Your browser does not support the video tag.
+              </video>
               <p className="mt-4 text-center text-sm text-gray-600">
                 HawkTV Segment — November 4, 2022
               </p>
             </div>
 
             <div>
-              <div className="aspect-video overflow-hidden rounded-lg shadow-lg">
-                <iframe
-                  src="https://player.vimeo.com/video/729449078?h=78898436c7&title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479"
-                  className="h-full w-full"
-                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
-                  title="CozyCrates.mp4"
+              <video
+                className="w-full rounded-lg shadow-lg"
+                controls
+                preload="metadata"
+                playsInline
+              >
+                <source
+                  src="https://pub-2bc2bf823845443c99633e3c6a3d342f.r2.dev/videos/cozycrates.mp4"
+                  type="video/mp4"
                 />
-              </div>
+                Your browser does not support the video tag.
+              </video>
               <p className="mt-4 text-center text-sm text-gray-600">
                 Cozy Crates
               </p>
